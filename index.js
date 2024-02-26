@@ -2,7 +2,9 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
+// const path = require('path')
 
+// fs.writeFileSync(path.join(__dirname,filename),data)
 // TODO: Create an array of questions for user input
 const questions = [
     {
